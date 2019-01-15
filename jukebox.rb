@@ -24,9 +24,7 @@ def help
 end
 
 def list(arr)
-  counter = 1
-  arr.each do |song|
-    puts "#{counter}. #{song}"
-    counter+=1
+  arr.each_with_index do |song, index|
+    puts "#{index + 1}. #{song}"
   end
 end
