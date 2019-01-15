@@ -28,3 +28,24 @@ def list(arr)
     puts "#{index + 1}. #{song}"
   end
 end
+
+def play(arr)
+  puts "Please enter a song name or number:"
+  song = gets.chomp
+
+  arr.each_with_index do |song, index|
+    song_name = ""
+    song.split("").each_with_index do |char, index|
+      if char == "-"
+        song_name = song.slice(index + 1, song.length)
+      end
+    end
+
+    if song == index || song_name == name
+      puts "Playing #{song_name}"
+      break
+    end
+  end
+
+  puts "Invalid input, please try again"
+end
