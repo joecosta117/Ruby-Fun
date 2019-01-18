@@ -59,5 +59,16 @@ def exit_jukebox
 end
 
 def run
+  help
+  puts "Please enter a command: "
+  response = gets.chomp
+  if response == "exit"
+    exit_jukebox
+  elsif response == "list"
+    list(arr)
 
 end
+
+# users_name = gets.chomp
+
+# puts say_hello(users_name)
