@@ -66,7 +66,14 @@ def run
     exit_jukebox
   elsif response == "list"
     list(arr)
-
+  elsif response == "play"
+    play(arr)
+  elsif response == "help"
+    help
+  else
+    puts "That isn't a valid command"
+    help
+  end
 end
 
 # users_name = gets.chomp
