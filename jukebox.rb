@@ -7,7 +7,8 @@ songs = [
   "The Cults - Abducted",
   "Phoenix - Consolation Prizes",
   "Harry Chapin - Cats in the Cradle",
-  "Amos Lee - Keep It Loose, Keep It Tight"
+  "Amos Lee - Keep It Loose, Keep It Tight",
+  "Lovelytheband - Broken"
 ]
 
 def help
