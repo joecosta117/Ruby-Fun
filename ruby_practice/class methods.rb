@@ -1,3 +1,5 @@
+#this class demo does several things. it initializes on a name and genre of movie. it also has several class variables that keep count of all the movie instances and all the genres. it has several class methods such as showing us the movie count and all the genres (unique ones only!)
+
 class Movies
  attr_accessor :name
  attr_accessor :genre
